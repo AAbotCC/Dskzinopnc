@@ -9,7 +9,7 @@ We'll continuously refine the code of ACT, and align results in the paper with a
 ****
 For this demo, only tablet dataset is prepared
 
-If you want try other datasets, please download datasets and write corresponding data loaders (see Page 13 revised manuscirpt).
+If you want to try other datasets, please download datasets and write corresponding data loaders (see Page 13 revised manuscirpt).
 
 ****
 __Dataset details__
