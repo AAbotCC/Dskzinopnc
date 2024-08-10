@@ -170,6 +170,7 @@ class Exp_Main(Exp_Basic):
             time_count += t_ep_time
             train_loss = np.average(train_loss)
             vali_loss = self.vali(vali_data, vali_loader, self.criterion, epoch)
+            test_loss = self.vali(test_data, test_loader, self.criterion, epoch)
             print("Epoch: {0}, Steps: {1} | Train Loss: {2:.7f} | Vali Loss: {3: .7f}".
                   format(epoch + 1, train_steps, train_loss, vali_loss))
 
