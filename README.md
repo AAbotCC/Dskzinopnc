@@ -7,7 +7,7 @@ The results from this demo might slightly differ from those reported in our manu
 We'll continuously refine the code of ACT, and align results in the paper with actual code.
 
 ****
-For this demo, only tablet dataset is prepared
+We have attach Tablet dataset to this demo, and experiments can be directly conducted on this dataset.
 
 If you want to try other datasets, please download datasets and write corresponding data loaders (see Page 13 revised manuscirpt).
 
